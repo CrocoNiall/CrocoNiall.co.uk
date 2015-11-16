@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    text-align: justify;
 }
 
 p {
@@ -204,6 +205,7 @@ section.success a.active {
 }
 
 #portfolio .portfolio-item {
+    height: 360px;
     right: 0;
     margin: 0 0 15px;
 }
@@ -228,6 +230,10 @@ section.success a.active {
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
+}
+.caption {
+    height: 360px;
+    overflow: hidden;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -411,8 +417,15 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
+    margin: 0 auto;
     margin-bottom: 30px;
 }
+
+img {
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
